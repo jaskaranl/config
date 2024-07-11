@@ -3,6 +3,9 @@ server:
 spring:
   application:
     name: "leave"
+    profiles:
+      active:"qa"
+    
   devtools:
     livereload:
       enabled: true
