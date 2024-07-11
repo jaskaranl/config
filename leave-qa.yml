@@ -3,8 +3,8 @@ server:
 spring:
   application:
     name: "leave"
-    profiles:
-      active:"qa"
+  profiles:
+    active:"qa"
     
   devtools:
     livereload:
