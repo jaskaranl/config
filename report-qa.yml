@@ -4,7 +4,7 @@ spring:
   application:
     name: "report_service"
   profiles:
-    active: "dev"
+    active: "default"
   devtools:
     livereload:
       enabled: true
