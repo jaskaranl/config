@@ -2,7 +2,7 @@ server:
   port: 8002
 spring:
   application:
-    name: "report_service"
+    name: "report"
   devtools:
     livereload:
       enabled: true
