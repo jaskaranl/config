@@ -2,7 +2,7 @@ server:
   port: 8001
 spring:
   application:
-    name: "employee-microservice"
+    name: "report_service"
   profiles:
     active: "dev"
   devtools:
