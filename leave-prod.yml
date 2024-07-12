@@ -3,6 +3,8 @@ server:
 spring:
   application:
     name: "leave"
+  profiles:
+    name: "default"
   devtools:
     livereload:
       enabled: true
