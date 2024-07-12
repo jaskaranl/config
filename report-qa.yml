@@ -9,7 +9,7 @@ spring:
     restart:
       enabled: true
   datasource:
-    url: jdbc:h2:mem:employee-db
+    url: jdbc:h2:mem:qadb
     driverClassName: org.h2.Driver
     username: admin
     password: ''
