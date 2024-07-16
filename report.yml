@@ -1,6 +1,9 @@
 server:
   port: 8002
 spring:
+  sql:
+    init:
+      mode: always
   application:
     name: "report"
   profiles:
@@ -17,6 +20,7 @@ spring:
     password: ''
   jpa:
     database-platform: org.hibernate.dialect.H2Dialect
+    defer-datasource-initialization: true
   h2:
     console:
       enabled: true
